@@ -1,0 +1,21 @@
+Implementation of Graphs
+
+UnWeighted Graph
+    1. Adjacency Matix          
+        -> 2D matrix                                    size int[V+1][V+1] 
+        -> ArrayList<ArrayList<Integer>>                size (v+1)*(v+1) ignoring 0th row and 0th col.
+        (if edge is present then graph[u][v] = 1)
+
+    2. Adjacency List
+        -> ArrayList<Integer>[]                             Array of ArrayLists     
+        -> ArrayList<ArrayList<Integer>>                    ArrayList of ArrayList  
+        -> HashMap<Integer, ArrayList<Integer>>             HashMap where Key is parent and value ArrayList denotes the edges
+        -> HashMap<Integer, HashSet<Integer>>               HashMap where Key is parent and value HashSet denotes set of children
+
+
+Weighted Graph
+    1. Adjacency matrix
+        (if edge is present graph[u][v] = w)
+    
+    2. Adjacency List
+        -> 
