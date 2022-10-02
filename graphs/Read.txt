@@ -1,3 +1,0 @@
-1. Mother vertex in a graph (https://www.geeksforgeeks.org/find-a-mother-vertex-in-a-graph/)
-2. Bridge in a graph
-3. Artculation point
